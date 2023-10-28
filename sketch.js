@@ -42,7 +42,7 @@ function setup() {
 
 function draw() {
   // background(255);
-  background(random(250), random(100), random(220), 10);
+  background(random(250), random(150), random(250), 10);
   let posX1 = map(noise(noiseTime), 0, 1, 0, windowWidth);
   let posY1 = map(noise(noiseTime + 100), 0, 1, 0, windowHeight);
   let posX2 = map(noise(noiseTime), 0, 1, 0, windowWidth);
