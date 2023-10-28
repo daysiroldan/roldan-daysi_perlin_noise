@@ -1,32 +1,3 @@
-// var xoff = 0;
-
-// function setup() {
-//   createCanvas(windowWidth, windowHeight);
-// }
-
-// function draw() {
-//   background(51);
-
-//   noFill();
-//   beginShape();
-
-
-//   for (var x = 0; x < width; x++) {
-//     var y = map(noise(xoff), 0, 1, 0, height);
-
-
-//     stroke(random(255), random(255), random(255));
-//     vertex(x, y);
-//     xoff += 0.2;
-//   }
-
-//   endShape();
-// }
-
-
-// --------------------------
-
-
 
 let noiseTime = 0;
 let noiseTam = 10;
